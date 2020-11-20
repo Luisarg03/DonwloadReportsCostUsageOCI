@@ -1,0 +1,6 @@
+[DEFAULT]
+user=
+fingerprint=
+key_file=key.pem
+tenancy=
+region=
