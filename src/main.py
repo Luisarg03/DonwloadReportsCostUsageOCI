@@ -77,11 +77,3 @@ unzip_list(folder_download ,data, time)
 PreProcess(folder_download, json_folder, folder_process, time)
 
 LogFinish(time, now)
-
-
-#         ## Remueve el .gz
-#         os.remove(folder_download + filename)
-
-#     ### anota la fecha del ultimo arhivo que se descargo
-#     file = open(path + '/' + 'UltimaHora.txt', 'w')
-#     file.write(str(time_file))
